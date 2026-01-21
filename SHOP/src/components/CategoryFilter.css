@@ -1,0 +1,25 @@
+.category-filter {
+  margin-bottom: 20px;
+}
+
+.filter-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category-item {
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.category-item.active {
+  opacity: 0.7;
+}

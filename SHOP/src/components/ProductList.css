@@ -1,0 +1,23 @@
+.product-list-container {
+  margin-top: 20px;
+}
+
+.product-list-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.no-products {
+  text-align: center;
+  color: #666;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
